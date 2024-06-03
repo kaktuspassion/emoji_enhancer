@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "emoji-enhancer"
+version = "0.1.0"
+description = "A CLI tool to enhance text with emojis based on the context."
+authors = ["Haonan Chen <haonan.chen@uzh.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spacy = "^3.7.4"
+scipy = "^1.12.0"
+gensim = "^4.3.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

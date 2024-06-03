@@ -4,8 +4,6 @@ A simple CLI tool to enhance your text with emojis based on word2vec and emoji e
 
 ## Introduction
 
-Emojis add a visual layer of expression to text, making it more engaging and easier to read. Now with the growth of internet, emoji are being used increasingly more widely and with ever richer meanings.
-
 To help people find the best emoji and to some extent automatize the process, this tool was developed utilizing a combination of pre-trained text embeddings  [Word2Vec](https://code.google.com/archive/p/word2vec/) (2013) and emoji embeddings[Emoji2Vec](https://github.com/uclnlp/emoji2vec) (2016) to suggest the most relevant emojis.
 
 In general, Emoji Enhancer aims to streamline the process of inserting emojis into text by analyzing the text's content and automatically suggesting relevant emojis which users can choose from. This tool is particularly useful for those who want make the text more engaging without interrupting their workflow to search for appropriate emojis.
@@ -94,8 +92,6 @@ Integrating all the previous considerations, in total I tried 4 combinations:
 The final choice for my project is the first one, because it has the best accuracy and short running time. All other methods are saved in folder `emoji_enhancer/methods`.
 
 ## Data
-
-Some examples are in `/data/recipe_1000.csv` .
 
 * emoji dictionary from emoji2vec project `/data/emoji2vec_dictionary.txt`
 
